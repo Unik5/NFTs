@@ -1,0 +1,15 @@
+{
+    "name": "xxx name of NFT xxx",
+    "description": "xxx description of NFT xxx",
+    "image": "ipfs://xxx CID from pinata xxxxxxx",
+    "attributes": [
+        {
+            "trait_type": "xxxxxxx trait label xxxxx",
+            "value": "Mist xxxxxxx trait description xxxxx"
+        },
+        {
+            "trait_type": "xxxxxx trait label xxxxxx",
+            "value": "xxxxxxx trait label xxxxxxx"
+        }
+    ]
+}

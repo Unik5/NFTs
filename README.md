@@ -1,66 +1,14 @@
-## Foundry
+#### Created A NFT and uploaded it to Sepolia testnet
+**Main Contract "NFT.sol" has the core functionality as the NFT Contract.** 
+**"DeployMyNFT.s.sol" is a Script that is used to deploy our NFT Contract at the begining.**
+**"Interactions.s.sol" is used to mint NFT after the Contract has been deployed.**
+**"Broadcast" folder contains logs of all transactions.**
+**"Image" contains the Image NFT.**
+**"Images JSON" contains JSON of our NFT.**
+**The Image is hosted in IPFS using Pinning Service "Pinata"**
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+OpenZepplin Contracts and Cyfrin Devops Contracts is Used.
 
-Foundry consists of:
+### Deployed NFT Contract Address :: 0x622087f7033157Da7d4f84197e068E9736Aefa6a  
+Can be viewed On : https://sepolia.etherscan.io/
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
-
-## Documentation
-
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
